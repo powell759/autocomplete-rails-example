@@ -1,0 +1,9 @@
+put that gem in your gemfile " gem 'rails4-autocomplete' "
+bundle install that bitch
+
+so we actually don't run the generator for 4+
+we manually install dependencies :(
+
+so first we add jquery / jquery-ujs / jquery-ui
+   - add jquery-3.2.1.min.js to /app/assets/javascripts
+   - include it in application.html.erb 
